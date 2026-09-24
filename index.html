@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Younes Merioua — Photographer &amp; Filmmaker</title>
+<meta name="description" content="Wedding, portrait and commercial photography and film. Selected work, available worldwide.">
+<meta name="theme-color" content="#f7f6f1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Younes Merioua — Photographer &amp; Filmmaker">
+<meta property="og:description" content="Wedding, portrait and commercial photography and film.">
+<meta property="og:image" content="media/branding/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  // Set the theme before first paint so there is never a flash of the wrong one.
+  try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#work">Skip to the work</a>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__mark" data-brand-short>YM</div>
+  <div class="loader__bar"><span></span></div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Home">
+      <span class="logo__mark" data-brand-short>YM</span>
+      <span class="logo__text">
+        <span class="logo__name" data-brand-name>Younes Merioua</span>
+        <span class="logo__role" data-brand-role>Photographer &amp; Filmmaker</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g stroke-linecap="round"><path d="M12 2.6v2.4M12 19v2.4M21.4 12H19M5 12H2.6M18.6 5.4l-1.7 1.7M7.1 16.9l-1.7 1.7M18.6 18.6l-1.7-1.7M7.1 7.1 5.4 5.4"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4 8.4 8.4 0 1 0 20 14.2Z"/></svg>
+      </button>
+      <a class="btn btn--green btn--sm" href="#contact">Book a session</a>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="header__progress" id="scrollProgress"></div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="menu" id="mobileMenu" aria-hidden="true">
+  <nav class="menu__nav" aria-label="Mobile">
+    <a href="#work"><span>01</span> Work</a>
+    <a href="#about"><span>02</span> About</a>
+    <a href="#services"><span>03</span> Services</a>
+    <a href="#faq"><span>04</span> FAQ</a>
+    <a href="#contact"><span>05</span> Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a data-contact-email href="mailto:hello@example.com">hello@example.com</a>
+    <div class="menu__socials" data-socials></div>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="bloom" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <p class="eyebrow reveal" data-hero-eyebrow>Selected Work · 2019 — 2026</p>
+    <h1 class="hero__title" data-hero-title>
+      <span class="reveal">Light, held still —</span>
+      <span class="reveal">stories worth keeping</span>
+    </h1>
+    <p class="hero__sub reveal" data-hero-sub>Weddings, portraits and brand films made with patience and an eye for the in-between moments.</p>
+    <div class="hero__cta reveal">
+      <a class="btn btn--outline" href="#work" data-hero-cta2>Browse the work</a>
+      <a class="btn btn--green" href="#contact" data-hero-cta1>Book a session</a>
+    </div>
+  </div>
+
+  <div class="hero__band">
+    <div class="hero__track" id="heroTrack"></div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats-strip" aria-label="At a glance">
+  <dl class="stats-strip__grid" data-about-stats></dl>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container about">
+    <div class="about__media reveal">
+      <div class="about__frame">
+        <img id="aboutPortrait" alt="" loading="lazy" decoding="async">
+      </div>
+      <div class="about__badge" data-about-badge hidden></div>
+      <ul class="about__gear" data-about-gear></ul>
+    </div>
+    <div class="about__body">
+      <p class="eyebrow reveal" data-about-eyebrow>About</p>
+      <h2 class="sec-title reveal" data-about-title>Behind the lens</h2>
+      <div class="about__text reveal" data-about-text></div>
+      <div class="about__cta reveal">
+        <a class="btn btn--ink" href="#work">See the portfolio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HIGHLIGHTS ============ -->
+<section class="section" id="highlights">
+  <div class="container">
+    <header class="sec-head">
+      <div>
+        <p class="eyebrow reveal" data-highlights-eyebrow>Why work with me</p>
+        <h2 class="sec-title reveal" data-highlights-title>Your story, handled end to end</h2>
+      </div>
+    </header>
+    <div class="highlights">
+      <div class="hl-grid" data-highlights-list></div>
+      <aside class="hl-aside">
+        <p class="sec-intro reveal" data-highlights-intro></p>
+        <a class="btn btn--ink reveal" data-highlights-cta href="#services">See what's included</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="section" id="work">
+  <div class="container">
+    <header class="sec-head sec-head--center">
+      <div>
+        <p class="eyebrow reveal" data-work-eyebrow>Portfolio</p>
+        <h2 class="sec-title reveal" data-work-title>The Work</h2>
+        <p class="sec-intro reveal" data-work-intro style="margin-top:14px">A living archive of frames and films.</p>
+      </div>
+    </header>
+
+    <div class="filters reveal" id="filters" role="tablist" aria-label="Filter the work"></div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+
+    <div class="grid-empty" id="gridEmpty" hidden>
+      <h3>No work here yet</h3>
+      <p>Drop images into <code>media/photos/&lt;category&gt;/</code> and run <code>npm run scan</code>.</p>
+    </div>
+
+    <div class="grid-more">
+      <button class="btn btn--outline" id="loadMore" type="button" hidden>Load more</button>
+      <p class="grid-count" id="gridCount"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STEPS ============ -->
+<section class="section section--steps" id="process">
+  <div class="container">
+    <div class="steps-wrap">
+      <div class="steps-head">
+        <div>
+          <p class="eyebrow reveal" data-process-eyebrow>Process</p>
+          <h2 class="sec-title reveal" data-process-title>Four steps, no surprises</h2>
+        </div>
+        <p class="sec-intro reveal" data-process-intro>A clear, unhurried process so you always know what happens next.</p>
+      </div>
+      <div class="steps" data-process-list></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <header class="sec-head sec-head--center">
+      <div>
+        <p class="eyebrow reveal" data-quotes-eyebrow>Kind words</p>
+        <h2 class="sec-title reveal" data-quotes-title>Trusted by the people in the picture</h2>
+      </div>
+    </header>
+    <div class="quotes reveal">
+      <img class="quotes__bg" id="quotesBg" alt="" loading="lazy" decoding="async">
+      <div class="quotes__scrim"></div>
+      <div class="quotes__viewport" id="quotesViewport"></div>
+      <button class="qbtn qbtn--prev" id="quotePrev" type="button" aria-label="Previous quote">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 4 7 12l8 8"/></svg>
+      </button>
+      <button class="qbtn qbtn--next" id="quoteNext" type="button" aria-label="Next quote">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
+      </button>
+      <div class="quotes__dots" id="quoteDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <header class="sec-head sec-head--split">
+      <div>
+        <p class="eyebrow reveal" data-services-eyebrow>Services</p>
+        <h2 class="sec-title reveal" data-services-title>How we can work together</h2>
+      </div>
+      <p class="sec-intro reveal" data-services-intro></p>
+    </header>
+    <div class="services" data-services-list></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="bloom bloom--soft" aria-hidden="true" style="opacity:.3"></div>
+  <div class="container faq">
+    <div class="faq__aside">
+      <p class="eyebrow reveal" data-faq-eyebrow>Good to know</p>
+      <h2 class="sec-title reveal" data-faq-title>Answers before you ask</h2>
+      <div class="faq__ask reveal">
+        <p data-faq-aside-title>Have a question in mind?</p>
+        <a class="btn btn--green" data-faq-cta href="#contact">Send a message</a>
+      </div>
+    </div>
+    <div class="faq__list" data-faq-list></div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section" aria-label="Get started">
+  <div class="container">
+    <div class="cta-wrap">
+      <div class="bloom" aria-hidden="true"></div>
+      <h2 data-cta-title>Let's make something worth keeping</h2>
+      <p data-cta-text></p>
+      <a class="btn btn--green" data-cta-button href="#contact">Start a project</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container contact">
+    <div class="contact__intro">
+      <p class="eyebrow reveal" data-contact-eyebrow>Contact</p>
+      <h2 class="sec-title reveal" data-contact-title>Let's make something</h2>
+      <p class="sec-intro reveal" data-contact-text></p>
+      <ul class="contact__list reveal" data-contact-list></ul>
+      <div class="contact__socials reveal" data-socials></div>
+    </div>
+
+    <form class="form reveal" id="contactForm" novalidate>
+      <div class="form__row">
+        <label class="field">
+          <span>Your name</span>
+          <input type="text" name="name" required autocomplete="name" placeholder="Jane Doe">
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" required autocomplete="email" placeholder="jane@studio.com">
+        </label>
+      </div>
+      <div class="form__row">
+        <label class="field">
+          <span>What for?</span>
+          <select name="subject" data-contact-subjects></select>
+        </label>
+        <label class="field">
+          <span>Date <em>(optional)</em></span>
+          <input type="date" name="date">
+        </label>
+      </div>
+      <label class="field">
+        <span>Tell me about it</span>
+        <textarea name="message" rows="5" required placeholder="The place, the people, the pictures you cannot go home without…"></textarea>
+      </label>
+      <button class="btn btn--green btn--full" type="submit">Send the message</button>
+      <p class="form__note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <a class="logo" href="#top" aria-label="Home">
+          <span class="logo__mark" data-brand-short>YM</span>
+          <span class="logo__text"><span class="logo__name" data-brand-name>Younes Merioua</span></span>
+        </a>
+        <p class="footer__blurb" data-footer-note></p>
+        <div class="footer__socials" data-socials-short></div>
+      </div>
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer__col">
+        <h4>Get in touch</h4>
+        <a data-contact-email href="mailto:hello@example.com">hello@example.com</a>
+        <a data-contact-phone href="tel:">&nbsp;</a>
+        <a href="#contact">Book a session</a>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span data-footer-credit></span>
+      <span id="year"></span>
+    </div>
+  </div>
+  <div class="footer__mark" data-brand-name aria-hidden="true">Younes Merioua</div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer" hidden>
+  <div class="lb__backdrop" data-lb-close></div>
+
+  <button class="lb__close" id="lbClose" type="button" aria-label="Close (Esc)">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+  </button>
+  <button class="lb__nav lb__nav--prev" id="lbPrev" type="button" aria-label="Previous">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 7 12l8 8"/></svg>
+  </button>
+  <button class="lb__nav lb__nav--next" id="lbNext" type="button" aria-label="Next">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
+  </button>
+
+  <figure class="lb__stage" id="lbStage">
+    <div class="lb__spinner" id="lbSpinner" aria-hidden="true"></div>
+    <div class="lb__media" id="lbMedia"></div>
+    <figcaption class="lb__bar">
+      <div class="lb__meta">
+        <h3 class="lb__title" id="lbTitle"></h3>
+        <p class="lb__sub" id="lbSub"></p>
+      </div>
+      <div class="lb__tools">
+        <a class="lb__tool" id="lbOpen" href="#" target="_blank" rel="noopener" title="Open original in a new tab">Open original</a>
+        <span class="lb__counter" id="lbCounter"></span>
+      </div>
+    </figcaption>
+  </figure>
+</div>
+
+<script src="assets/js/main.js" type="module"></script>
+</body>
+</html>

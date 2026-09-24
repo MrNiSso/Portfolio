@@ -1,0 +1,17 @@
+{
+  "name": "photography-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static photography & film portfolio. Drop files in media/, run scan, done.",
+  "scripts": {
+    "scan": "node tools/scan.js",
+    "thumbs": "node tools/thumbs.js",
+    "build": "node tools/thumbs.js && node tools/scan.js",
+    "start": "node tools/scan.js && node tools/serve.js",
+    "dev": "node tools/serve.js"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.33.5"
+  },
+  "engines": { "node": ">=18" }
+}

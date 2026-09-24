@@ -1,0 +1,322 @@
+{
+  "_comment": "Edit this file to change every piece of text on the site. No HTML knowledge needed.",
+  "brand": {
+    "name": "Younes Merioua",
+    "shortName": "YM",
+    "role": "Photographer & Filmmaker",
+    "location": "Algiers, Algeria",
+    "logoImage": "",
+    "favicon": ""
+  },
+  "seo": {
+    "title": "Younes Merioua — Photographer & Filmmaker",
+    "description": "Wedding, portrait and commercial photography and film. Selected work, available worldwide.",
+    "url": "https://username.github.io/portfolio/",
+    "ogImage": "media/branding/og-cover.png",
+    "themeColor": "#f7f6f1"
+  },
+  "hero": {
+    "eyebrow": "Selected Work · 2019 — 2026",
+    "titleLines": [
+      "Light, held still —",
+      "stories worth keeping"
+    ],
+    "subtitle": "Weddings, portraits and brand films made with patience and an eye for the in-between moments.",
+    "primaryCta": {
+      "label": "Book a session",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "Browse the work",
+      "href": "#work"
+    },
+    "slideshowInterval": 6000
+  },
+  "marquee": [
+    "Weddings",
+    "Portraits",
+    "Brand Films",
+    "Editorial",
+    "Commercial",
+    "Documentary"
+  ],
+  "work": {
+    "eyebrow": "Portfolio",
+    "title": "The Work",
+    "intro": "A living archive of frames and films. Filter by what you came to see.",
+    "initialCount": 12,
+    "loadMoreStep": 12
+  },
+  "categories": {
+    "weddings": {
+      "label": "Weddings",
+      "order": 1
+    },
+    "portraits": {
+      "label": "Portraits",
+      "order": 2
+    },
+    "commercial": {
+      "label": "Commercial",
+      "order": 3
+    },
+    "travel": {
+      "label": "Travel",
+      "order": 4
+    },
+    "films": {
+      "label": "Films",
+      "order": 5
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Behind the lens",
+    "portrait": "media/branding/portrait.png",
+    "paragraphs": [
+      "I have spent the last eight years learning that the best photograph is almost never the one people pose for. It is the half-second after — the laugh that breaks, the hand that reaches, the light that turns.",
+      "I work quietly and I work fast. Whether it is a three-day wedding, a studio portrait or a brand film with a full crew, my job is the same: make people forget the camera is there, then be ready when they do."
+    ],
+    "stats": [
+      {
+        "value": "480+",
+        "label": "Sessions shot"
+      },
+      {
+        "value": "12",
+        "label": "Countries"
+      },
+      {
+        "value": "8",
+        "label": "Years behind the lens"
+      },
+      {
+        "value": "96%",
+        "label": "Clients who return"
+      }
+    ],
+    "gear": [
+      "Sony A7 IV",
+      "Canon R5",
+      "DJI Ronin 4D",
+      "Profoto B10"
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "How we can work together",
+    "intro": "Every package is tailored. These are the starting points.",
+    "items": [
+      {
+        "name": "Weddings",
+        "price": "from $1,800",
+        "summary": "Full-day documentary coverage, two shooters available, delivered as a curated gallery plus a highlight film.",
+        "features": [
+          "8–12 hours coverage",
+          "400+ edited frames",
+          "Online gallery for guests",
+          "Optional highlight film"
+        ]
+      },
+      {
+        "name": "Portraits",
+        "price": "from $350",
+        "summary": "Studio or location sessions for individuals, families, actors and founders who need images that actually look like them.",
+        "features": [
+          "90-minute session",
+          "2 outfit changes",
+          "25 retouched frames",
+          "Print-ready files"
+        ]
+      },
+      {
+        "name": "Brand & Commercial",
+        "price": "from $1,200",
+        "summary": "Product, campaign and social content — stills and motion shot together so your whole rollout is consistent.",
+        "features": [
+          "Concept & moodboard",
+          "Stills + video",
+          "Usage licence included",
+          "48-hour selects"
+        ]
+      },
+      {
+        "name": "Films",
+        "price": "on request",
+        "summary": "Short documentary and brand films, from a one-person crew to full production with grade and sound design.",
+        "features": [
+          "Treatment & storyboard",
+          "4K / 6K capture",
+          "Colour grade",
+          "Licensed music"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "Four steps, no surprises",
+    "steps": [
+      {
+        "title": "Talk it through",
+        "text": "A call to understand the day, the people and the pictures you cannot go home without."
+      },
+      {
+        "title": "Plan the light",
+        "text": "Locations, timings and a shot list built around when the light is actually good."
+      },
+      {
+        "title": "Shoot",
+        "text": "I stay out of the way. You get to live the day instead of performing it."
+      },
+      {
+        "title": "Deliver",
+        "text": "Hand-edited selects in a private online gallery, usually within two weeks."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Kind words",
+    "title": "What clients say",
+    "items": [
+      {
+        "quote": "We forgot he was there all day, and then we saw the gallery and cried. Every single moment we were afraid of missing is in there.",
+        "author": "Lina & Yacine",
+        "role": "Wedding, Tipaza"
+      },
+      {
+        "quote": "The fastest turnaround we have had from any photographer, and the images outperformed our previous campaign by a mile.",
+        "author": "Sofia Benali",
+        "role": "Brand Director, Maison Nord"
+      },
+      {
+        "quote": "I hate having my picture taken. These are the first headshots I have ever actually liked.",
+        "author": "Karim D.",
+        "role": "Founder, Tellus"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's make something",
+    "intro": "Tell me about the date, the place and what matters to you. I reply to every message within two days.",
+    "email": "hello@example.com",
+    "phone": "+213 000 00 00 00",
+    "availability": "Booking 2026 — limited dates",
+    "formAction": "",
+    "formNote": "Prefers email? Write to me directly at",
+    "subjects": [
+      "Wedding",
+      "Portrait session",
+      "Brand / Commercial",
+      "Film production",
+      "Something else"
+    ]
+  },
+  "socials": [
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/"
+    },
+    {
+      "label": "Behance",
+      "href": "https://behance.net/"
+    },
+    {
+      "label": "Vimeo",
+      "href": "https://vimeo.com/"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://youtube.com/"
+    }
+  ],
+  "footer": {
+    "note": "Available worldwide · Based in Algiers",
+    "credit": "All images © Younes Merioua. Please do not reproduce without permission."
+  },
+  "highlights": {
+    "eyebrow": "Why work with me",
+    "title": "Your story, handled end to end",
+    "intro": "From the first call to the final gallery, everything is taken care of so you can be present on the day.",
+    "cta": {
+      "label": "See what's included",
+      "href": "#services"
+    },
+    "items": [
+      {
+        "icon": "camera",
+        "title": "Unhurried coverage",
+        "text": "No rushing, no forced poses. I work to the pace of your day."
+      },
+      {
+        "icon": "clock",
+        "title": "Fast turnaround",
+        "text": "Previews within 48 hours, full gallery inside two weeks."
+      },
+      {
+        "icon": "spark",
+        "title": "Hand editing",
+        "text": "Every frame graded by hand. No batch presets, no filters."
+      },
+      {
+        "icon": "shield",
+        "title": "Backed up twice",
+        "text": "Dual card slots on the day, two archives afterwards."
+      },
+      {
+        "icon": "gallery",
+        "title": "Private galleries",
+        "text": "Share with family through a link. Download in full resolution."
+      },
+      {
+        "icon": "film",
+        "title": "Stills and motion",
+        "text": "Photo and film shot together so the whole story matches."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Good to know",
+    "title": "Answers before you ask",
+    "asideTitle": "Have a question in mind?",
+    "asideCta": {
+      "label": "Send a message",
+      "href": "#contact"
+    },
+    "items": [
+      {
+        "q": "How far in advance should I book?",
+        "a": "For weddings, six to twelve months is typical, and peak season dates go first. Portraits and commercial work can usually be arranged within two or three weeks. If your date is close, ask anyway — cancellations happen."
+      },
+      {
+        "q": "How many photographs will I receive?",
+        "a": "A full wedding day is usually 400 to 600 edited frames. A portrait session is around 25 to 40. I deliver what is genuinely good rather than padding a number, and there is no extra charge per image."
+      },
+      {
+        "q": "When will I get the gallery?",
+        "a": "A preview set of 20 to 30 images arrives within 48 hours. The complete gallery follows within two weeks, and films within four."
+      },
+      {
+        "q": "Do you travel?",
+        "a": "Yes, anywhere. Travel and accommodation are added at cost for anything beyond a two-hour drive, and I will always show you the numbers before you commit."
+      },
+      {
+        "q": "What happens if it rains?",
+        "a": "We shoot anyway. Overcast light is flattering and rain makes memorable pictures. I carry covers for the gear and will scout indoor options in advance."
+      },
+      {
+        "q": "Can we get both photo and video?",
+        "a": "That is what I would recommend. Shooting stills and motion together means one team on the day, one consistent look across both, and a better price than hiring separately."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's make something worth keeping",
+    "text": "Tell me the date and the place. I reply to every message within two days.",
+    "button": {
+      "label": "Start a project",
+      "href": "#contact"
+    }
+  }
+}

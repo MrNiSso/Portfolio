@@ -1,0 +1,68 @@
+name: Build gallery & deploy
+
+# Drop a photo into media/, push, and this rebuilds the gallery and
+# publishes the site. No manual step in between.
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write      # so the refreshed manifest can be committed back
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # sharp is optional — if it fails to install we still ship the site,
+      # just without the smaller WebP previews.
+      - name: Install sharp (optional)
+        continue-on-error: true
+        run: npm install --no-audit --no-fund
+
+      - name: Generate thumbnails
+        continue-on-error: true
+        run: node tools/thumbs.js
+
+      - name: Scan media into data/gallery.json
+        run: node tools/scan.js
+
+      # Keeps the repo consistent so "Deploy from a branch" works too.
+      - name: Commit refreshed gallery
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gallery.json media/_thumbs 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Gallery already up to date."
+          else
+            git commit -m "chore: rebuild gallery [skip ci]"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
