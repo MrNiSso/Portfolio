@@ -151,7 +151,6 @@ function renderConfig(c) {
       <article class="card reveal">
         <div class="card__top">
           <h3 class="card__name">${esc(it.name)}</h3>
-          <span class="card__price">${esc(it.price || '')}</span>
         </div>
         <p class="card__sum">${esc(it.summary || '')}</p>
         <ul class="card__list">${(it.features || []).map(f => `<li>${TICK}<span>${esc(f)}</span></li>`).join('')}</ul>

@@ -4,7 +4,7 @@
     "name": "Younes Merioua",
     "shortName": "YM",
     "role": "Photographer & Filmmaker",
-    "location": "Algiers, Algeria",
+    "location": "Doha, Qatar",
     "logoImage": "",
     "favicon": ""
   },
@@ -83,7 +83,7 @@
         "label": "Sessions shot"
       },
       {
-        "value": "12",
+        "value": "3",
         "label": "Countries"
       },
       {
@@ -97,8 +97,10 @@
     ],
     "gear": [
       "Sony A7 IV",
+      "Sony FX3",
       "Canon R5",
-      "DJI Ronin 4D",
+      "Nikon D3500",
+      "DJI Ronin RS 3 / 3 Pro / 4",
       "Profoto B10"
     ]
   },
@@ -109,7 +111,6 @@
     "items": [
       {
         "name": "Weddings",
-        "price": "from $1,800",
         "summary": "Full-day documentary coverage, two shooters available, delivered as a curated gallery plus a highlight film.",
         "features": [
           "8–12 hours coverage",
@@ -120,7 +121,6 @@
       },
       {
         "name": "Portraits",
-        "price": "from $350",
         "summary": "Studio or location sessions for individuals, families, actors and founders who need images that actually look like them.",
         "features": [
           "90-minute session",
@@ -131,7 +131,6 @@
       },
       {
         "name": "Brand & Commercial",
-        "price": "from $1,200",
         "summary": "Product, campaign and social content — stills and motion shot together so your whole rollout is consistent.",
         "features": [
           "Concept & moodboard",
@@ -200,8 +199,8 @@
     "eyebrow": "Contact",
     "title": "Let's make something",
     "intro": "Tell me about the date, the place and what matters to you. I reply to every message within two days.",
-    "email": "hello@example.com",
-    "phone": "+213 000 00 00 00",
+    "email": "meriouayounes@gmail.com",
+    "phone": "+974 3163 5689",
     "availability": "Booking 2026 — limited dates",
     "formAction": "",
     "formNote": "Prefers email? Write to me directly at",
@@ -216,23 +215,11 @@
   "socials": [
     {
       "label": "Instagram",
-      "href": "https://instagram.com/"
-    },
-    {
-      "label": "Behance",
-      "href": "https://behance.net/"
-    },
-    {
-      "label": "Vimeo",
-      "href": "https://vimeo.com/"
-    },
-    {
-      "label": "YouTube",
-      "href": "https://youtube.com/"
+      "href": "https://www.instagram.com/rs_younes22"
     }
   ],
   "footer": {
-    "note": "Available worldwide · Based in Algiers",
+    "note": "Available worldwide · Based in Qatar",
     "credit": "All images © Younes Merioua. Please do not reproduce without permission."
   },
   "highlights": {
