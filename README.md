@@ -7,8 +7,7 @@ A fast, static portfolio site. No database, no CMS, no build framework.
 
 ## 1. Adding a photo
 
-Put the file in `media/photos/<category>/`:
-
+Put the file in `media/photos/<category>
 ```
 media/photos/weddings/07 - Rain On The Steps.jpg
 ```
@@ -130,7 +129,7 @@ The whole design is driven by a handful of CSS variables at the top of
 
 ```css
 --accent:      #7cc243;   /* the green on buttons, badges and highlights */
---accent-deep: #5ea52b;   /* hover + text on light green */
+--accent-deep: rgb(31, 155, 33);   /* hover + text on light green */
 --accent-soft: #e9f5da;   /* pill and icon-badge backgrounds */
 --bg:          #f7f6f1;   /* warm cream page */
 --ink:         #121310;   /* dark buttons and the footer */
