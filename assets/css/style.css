@@ -228,7 +228,7 @@ ul, ol { list-style: none; padding: 0; }
   display: flex;
   width: max-content;
   gap: 24px;
-  animation: collaborations-scroll 70s linear infinite;
+  animation: collaborations-scroll 72s linear infinite;
   will-change: transform;
 }
 
