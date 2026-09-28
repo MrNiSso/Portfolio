@@ -104,6 +104,87 @@
       "Profoto B10"
     ]
   },
+  "collaborations": {
+  "eyebrow": "Selected collaborations",
+  "title": "Trusted by brands and creative teams",
+  "items": [
+    {
+      "name": "Company 1",
+      "logo": "media/logos/MM وزارة البلدية.jpg"
+    },{
+      "name": "Company 2",
+      "logo": "media/logos/وزارة التربية والتعليم.jpg"
+    },{
+      "name": "Company 3",
+      "logo": "media/logos/QRCS _ الهلال الأحمر القطري .jpg"
+    },
+    {
+      "name": "Company 4",
+      "logo": "media/logos/جامعة الدوحة للعلوم والتكنولوجيا.gif"
+    },
+    {
+      "name": "Company 5",
+      "logo": "media/logos/974 beach.jpg"
+    },{
+      "name": "Company 6",
+      "logo": "media/logos/سوق واقف.jpg"
+    },
+    {
+      "name": "Company 7",
+      "logo": "media/logos/monoprix.jpg"
+    },
+    {
+      "name": "Company 8",
+      "logo": "media/logos/الاتحاد القطري للرياضة للجميع.jpg"
+    },
+    {
+      "name": "Company 9",
+      "logo": "media/logos/Experience Qatar.jpg"
+    },{
+      "name": "Company 10",
+      "logo": "media/logos/جبل العود.jpg"
+    },
+    {
+      "name": "Company 11",
+      "logo": "media/logos/by_alftoon.jpg"
+    },
+    {
+      "name": "Company 12",
+      "logo": "media/logos/H Jewellery.jpg"
+    },
+    {
+      "name": "Company 13",
+      "logo": "media/logos/اليوم العالمي للنحل.jpg"
+    },{
+      "name": "Company 14",
+      "logo": "media/logos/hijabique.jpg"
+    },
+    {
+      "name": "Company 15",
+      "logo": "media/logos/Candy Land.png"
+    },
+    {
+      "name": "Company 16",
+      "logo": "media/logos/Nafas.jpg"
+    },
+    {
+      "name": "Company 17",
+      "logo": "media/logos/Feteer Meshaltet.jpg"
+    },
+    {
+      "name": "Company 18",
+      "logo": "media/logos/Amun Starr.jpg"
+    },
+    {
+      "name": "Company 19",
+      "logo": "media/logos/The Cake Corner.jpg"
+    },
+    {
+      "name": "Company 20",
+      "logo": "media/logos/Freelance.jpg"
+    }
+  ]
+},
   "services": {
     "eyebrow": "Services",
     "title": "How we can work together",

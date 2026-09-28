@@ -106,6 +106,7 @@ function renderConfig(c) {
   if (a.paragraphs) $('[data-about-text]').innerHTML = a.paragraphs.map(p => `<p>${esc(p)}</p>`).join('');
   if (a.gear) $('[data-about-gear]').innerHTML = a.gear.map(g => `<li>${esc(g)}</li>`).join('');
 
+
   // Float the first stat over the portrait, like the reference's "95% investor trust" card.
   const badge = $('[data-about-badge]');
   if (a.stats?.length && badge) {
@@ -722,6 +723,48 @@ function initForm() {
   });
 }
 
+/* ---------- collaborations ---------- */
+function buildCollaborations(c) {
+  const data = c.collaborations || {};
+  const items = data.items || [];
+
+  if (!items.length) return;
+
+  const statsSection = $('[data-about-stats]')?.closest('section');
+  if (!statsSection) return;
+
+  const section = el('section', 'collaborations');
+
+  section.innerHTML = `
+    <div class="collaborations__heading">
+      <span class="collaborations__eyebrow">
+        ${esc(data.eyebrow || 'Selected collaborations')}
+      </span>
+
+      <h2 class="collaborations__title">
+        ${esc(data.title || 'Brands I’ve collaborated with')}
+      </h2>
+    </div>
+
+    <div class="collaborations__viewport">
+      <div class="collaborations__track">
+        ${[...items, ...items].map(item => `
+          <div class="collaborations__card">
+            <img
+              src="${esc(mediaURL(item.logo))}"
+              alt="${esc(item.name)}"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+
+  statsSection.parentNode.insertBefore(section, statsSection);
+}
+
 /* =================================================================
    8. BOOT
    ================================================================= */
@@ -736,12 +779,14 @@ function initForm() {
   state.categories = gallery.categories || [];
 
   renderConfig(config);
+  buildCollaborations(config);
   buildFilters();
   renderGrid(true);
   buildHeroBand(state.items);
   setQuotesBackdrop(state.items);
   initLightbox();
   initChrome();
+  
 
   requestAnimationFrame(() => {
     setTimeout(() => $('#loader').classList.add('is-done'), REDUCED ? 0 : 380);

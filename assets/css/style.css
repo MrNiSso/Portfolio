@@ -175,6 +175,125 @@ ul, ol { list-style: none; padding: 0; }
 .btn--full { width: 100%; }
 .btn[hidden] { display: none; }
 
+/* ---------- COLLABORATIONS ---------- */
+
+.collaborations {
+  width: 100%;
+  padding: 55px 0 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+.collaborations__heading {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.collaborations__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
+.collaborations__eyebrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.collaborations__title {
+  margin-top: 14px;
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 600;
+  letter-spacing: -.035em;
+  line-height: 1.08;
+}
+
+.collaborations__viewport {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.collaborations__track {
+  display: flex;
+  width: max-content;
+  gap: 24px;
+  animation: collaborations-scroll 70s linear infinite;
+  will-change: transform;
+}
+
+.collaborations__card {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 250px;
+  border-radius: 32px;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  box-shadow: var(--shadow-sm);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.collaborations__card img {
+  width: 88%;
+  height: 77%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@keyframes collaborations-scroll {
+  from {
+    transform: translateX(calc(-50% - 12px));
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* pause while hovering */
+.collaborations__viewport:hover .collaborations__track {
+  animation-play-state: paused;
+}
+
+/* mobile */
+@media (max-width: 700px) {
+  .collaborations {
+    padding: 45px 0 55px;
+  }
+
+  .collaborations__card {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 300px;}
+
+  .collaborations__track {
+    gap: 18px;
+    animation-duration: 28s;
+  }
+}
+
+/* accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .collaborations__track {
+    animation: none;
+  }
+}
+
 /* ---------- 5. HEADER ---------- */
 .header {
   position: fixed; inset: 0 0 auto; z-index: 100;
