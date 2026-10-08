@@ -1,9 +1,13 @@
 {
+<<<<<<< HEAD
   "generatedAt": "2026-09-28T20:32:30.070Z",
+=======
+  "generatedAt": "2026-10-08T20:32:13.994Z",
+>>>>>>> b9458a4 (add event photos and videos)
   "counts": {
-    "total": 105,
-    "photos": 102,
-    "videos": 3
+    "total": 113,
+    "photos": 108,
+    "videos": 5
   },
   "categories": [
     {
@@ -16,7 +20,7 @@
       "id": "portraits",
       "label": "Portraits",
       "order": 2,
-      "count": 11
+      "count": 14
     },
     {
       "id": "commercial",
@@ -40,7 +44,7 @@
       "id": "GOV",
       "label": "GOV",
       "order": 500,
-      "count": 3
+      "count": 5
     },
     {
       "id": "meetings",
@@ -52,13 +56,13 @@
       "id": "Ministers",
       "label": "Ministers",
       "order": 500,
-      "count": 4
+      "count": 6
     },
     {
       "id": "real estate",
       "label": "Real Estate",
       "order": 500,
-      "count": 4
+      "count": 5
     },
     {
       "id": "sports",
@@ -101,9 +105,9 @@
     {
       "id": "photos-events-01-974",
       "type": "photo",
-      "title": "قطر كالندر مع شاطئ 974",
+      "title": "قطر كالندر مع شاطئ 974",
       "category": "events",
-      "src": "media/photos/events/01 - قطر كالندر مع شاطئ 974.jpg",
+      "src": "media/photos/events/01 - قطر كالندر مع شاطئ 974.jpg",
       "thumb": "media/_thumbs/photos-events-01-974.webp",
       "width": 1499,
       "height": 1000,
@@ -407,9 +411,9 @@
     {
       "id": "photos-events-03-974-",
       "type": "photo",
-      "title": "شاطئ 974 مع كورنيش الدوحة",
+      "title": "شاطئ 974 مع كورنيش الدوحة",
       "category": "events",
-      "src": "media/photos/events/03 - شاطئ 974 مع كورنيش الدوحة.jpg",
+      "src": "media/photos/events/03 - شاطئ 974 مع كورنيش الدوحة.jpg",
       "thumb": "media/_thumbs/photos-events-03-974-.webp",
       "width": 1499,
       "height": 1000,
@@ -455,9 +459,9 @@
     {
       "id": "photos-ministers-03-",
       "type": "photo",
-      "title": "وزير البلدية مع الرئيس التنفيذي لشركة بلدنا",
+      "title": "وزير البلدية مع الرئيس التنفيذي لشركة بلدنا",
       "category": "Ministers",
-      "src": "media/photos/Ministers/03 - وزير البلدية مع الرئيس التنفيذي لشركة بلدنا.jpg",
+      "src": "media/photos/Ministers/03 - وزير البلدية مع الرئيس التنفيذي لشركة بلدنا.jpg",
       "thumb": "media/_thumbs/photos-ministers-03-.webp",
       "width": 1499,
       "height": 1000,
@@ -500,9 +504,9 @@
     {
       "id": "photos-sports-03-",
       "type": "photo",
-      "title": "رياضة مائية",
+      "title": "رياضة مائية",
       "category": "sports",
-      "src": "media/photos/sports/03 - رياضة مائية.JPG",
+      "src": "media/photos/sports/03 - رياضة مائية.JPG",
       "thumb": "media/_thumbs/photos-sports-03-.webp",
       "width": 1499,
       "height": 1000,
@@ -545,13 +549,31 @@
     {
       "id": "photos-events-04-",
       "type": "photo",
-      "title": "عرض الفقاعات المائية",
+      "title": "عرض الفقاعات المائية",
       "category": "events",
-      "src": "media/photos/events/04 - عرض الفقاعات المائية.jpg",
+      "src": "media/photos/events/04 - عرض الفقاعات المائية.jpg",
       "thumb": "media/_thumbs/photos-events-04-.webp",
       "width": 1499,
       "height": 1000,
       "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 4
+    },
+    {
+      "id": "videos-gov-04-",
+      "type": "video",
+      "provider": "file",
+      "videoId": null,
+      "src": "media/videos/GOV/04 - مزرعة تربة.mp4",
+      "title": "مزرعة تربة",
+      "category": "GOV",
+      "poster": "media/videos/GOV/04 - مزرعة تربة.jpeg",
+      "thumb": null,
+      "width": 1002,
+      "height": 1746,
+      "ratio": 0.5739,
       "featured": false,
       "wide": false,
       "year": null,
@@ -678,6 +700,24 @@
       "order": 5
     },
     {
+      "id": "videos-gov-05-",
+      "type": "video",
+      "provider": "file",
+      "videoId": null,
+      "src": "media/videos/GOV/05 - معرض ومؤتمر اعادة التدوير.mp4",
+      "title": "معرض ومؤتمر اعادة التدوير",
+      "category": "GOV",
+      "poster": "media/videos/GOV/05 - معرض ومؤتمر اعادة التدوير.jpeg",
+      "thumb": null,
+      "width": 1000,
+      "height": 1746,
+      "ratio": 0.5727,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 5
+    },
+    {
       "id": "photos-meetings-05-",
       "type": "photo",
       "title": "تدريب ميداني طلاب جامعة الدوحة",
@@ -693,15 +733,45 @@
       "order": 5
     },
     {
+      "id": "photos-ministers-05-",
+      "type": "photo",
+      "title": "وزير البلدية بمؤتمر اعادة التدوير",
+      "category": "Ministers",
+      "src": "media/photos/Ministers/05 - وزير البلدية بمؤتمر اعادة التدوير.jpeg",
+      "thumb": null,
+      "width": 1499,
+      "height": 1000,
+      "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 5
+    },
+    {
       "id": "photos-portraits-05-",
       "type": "photo",
       "title": "رياح بالميناء القديم",
       "category": "portraits",
-      "src": "media/photos/portraits/05 - رياح بالميناء القديم.JPG",
+      "src": "media/photos/portraits/05 - رياح بالميناء القديم.jpg",
       "thumb": "media/_thumbs/photos-portraits-05-.webp",
       "width": 1334,
       "height": 2000,
       "ratio": 0.667,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 5
+    },
+    {
+      "id": "photos-real-estate-05-",
+      "type": "photo",
+      "title": "اعلى فندق فيرمنت الدوحة",
+      "category": "real estate",
+      "src": "media/photos/real estate/05 - اعلى فندق فيرمنت الدوحة.jpeg",
+      "thumb": null,
+      "width": 1125,
+      "height": 1500,
+      "ratio": 0.75,
       "featured": false,
       "wide": false,
       "year": null,
@@ -729,6 +799,21 @@
       "category": "events",
       "src": "media/photos/events/06 - رسم على الوجه.jpg",
       "thumb": "media/_thumbs/photos-events-06-.webp",
+      "width": 1499,
+      "height": 1000,
+      "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 6
+    },
+    {
+      "id": "photos-ministers-06-",
+      "type": "photo",
+      "title": "اهداء لوزير البلدية",
+      "category": "Ministers",
+      "src": "media/photos/Ministers/06 - اهداء لوزير البلدية.jpeg",
+      "thumb": null,
       "width": 1499,
       "height": 1000,
       "ratio": 1.499,
@@ -830,9 +915,9 @@
     {
       "id": "photos-portraits-08-",
       "type": "photo",
-      "title": "ثنائي",
+      "title": "ثنائي",
       "category": "portraits",
-      "src": "media/photos/portraits/08 - ثنائي.jpg",
+      "src": "media/photos/portraits/08 - ثنائي.jpg",
       "thumb": "media/_thumbs/photos-portraits-08-.webp",
       "width": 1500,
       "height": 1000,
@@ -875,9 +960,9 @@
     {
       "id": "photos-portraits-09-",
       "type": "photo",
-      "title": "ثتائي مع الغروب",
+      "title": "ثتائي مع الغروب",
       "category": "portraits",
-      "src": "media/photos/portraits/09 - ثتائي مع الغروب.jpg",
+      "src": "media/photos/portraits/09 - ثتائي مع الغروب.jpg",
       "thumb": "media/_thumbs/photos-portraits-09-.webp",
       "width": 1500,
       "height": 1000,
@@ -965,9 +1050,9 @@
     {
       "id": "photos-portraits-11-",
       "type": "photo",
-      "title": "اللؤلؤة",
+      "title": "اللؤلؤة",
       "category": "portraits",
-      "src": "media/photos/portraits/11 - اللؤلؤة.jpg",
+      "src": "media/photos/portraits/11 - اللؤلؤة.jpg",
       "thumb": "media/_thumbs/photos-portraits-11-.webp",
       "width": 1500,
       "height": 1000,
@@ -1008,6 +1093,21 @@
       "order": 12
     },
     {
+      "id": "photos-portraits-12-organizer",
+      "type": "photo",
+      "title": "Organizer",
+      "category": "portraits",
+      "src": "media/photos/portraits/12 - Organizer.jpg",
+      "thumb": null,
+      "width": 1334,
+      "height": 2000,
+      "ratio": 0.667,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 12
+    },
+    {
       "id": "photos-commercial-13-",
       "type": "photo",
       "title": "شكولاطة زاوية فوقية",
@@ -1038,6 +1138,21 @@
       "order": 13
     },
     {
+      "id": "photos-portraits-13-",
+      "type": "photo",
+      "title": "عازفة البيانو",
+      "category": "portraits",
+      "src": "media/photos/portraits/13 - عازفة البيانو.jpeg",
+      "thumb": null,
+      "width": 1500,
+      "height": 2000,
+      "ratio": 0.75,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 13
+    },
+    {
       "id": "photos-commercial-14-",
       "type": "photo",
       "title": "هدية ورود",
@@ -1062,6 +1177,21 @@
       "width": 1499,
       "height": 1000,
       "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 14
+    },
+    {
+      "id": "photos-portraits-14-speaker",
+      "type": "photo",
+      "title": "Speaker",
+      "category": "portraits",
+      "src": "media/photos/portraits/14 - Speaker.jpg",
+      "thumb": null,
+      "width": 1334,
+      "height": 2000,
+      "ratio": 0.667,
       "featured": false,
       "wide": false,
       "year": null,
