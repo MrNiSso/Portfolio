@@ -3,13 +3,13 @@
   "brand": {
     "name": "Younes Merioua",
     "shortName": "YM",
-    "role": "Photographer & Filmmaker",
+    "role": "Photographer & Filmmaker / Media Specialist",
     "location": "Doha, Qatar",
     "logoImage": "",
     "favicon": ""
   },
   "seo": {
-    "title": "Younes Merioua — Photographer & Filmmaker",
+    "title": "Younes Merioua — Photographer & Filmmaker / Media Specialist",
     "description": "Wedding, portrait and commercial photography and film. Selected work, available worldwide.",
     "url": "https://mrnisso.github.io/portfolio/",
     "ogImage": "media/branding/og-cover.png",
@@ -74,7 +74,7 @@
     "title": "Behind the lens",
     "portrait": "media/branding/portrait.png",
     "paragraphs": [
-      "I have spent the last eight years learning that the best photograph is almost never the one people pose for. It is the half-second after — the laugh that breaks, the hand that reaches, the light that turns.",
+      "I have spent the last seven years learning that the best photograph is almost never the one people pose for. It is the half-second after — the laugh that breaks, the hand that reaches, the light that turns.",
       "I work quietly and I work fast. Whether it is a three-day wedding, a studio portrait or a brand film with a full crew, my job is the same: make people forget the camera is there, then be ready when they do."
     ],
     "stats": [
@@ -87,7 +87,7 @@
         "label": "Countries"
       },
       {
-        "value": "8",
+        "value": "7",
         "label": "Years behind the lens"
       },
       {
@@ -120,7 +120,7 @@
     },
     {
       "name": "Company 4",
-      "logo": "media/logos/جامعة الدوحة للعلوم والتكنولوجيا.gif"
+      "logo": "media/logos/جامعة الدوحة للعلوم والتكنولوجيا.jpg"
     },
     {
       "name": "Company 5",
