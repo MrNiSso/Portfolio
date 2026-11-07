@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-25T00:19:40.466Z",
+  "generatedAt": "2026-11-07T10:36:21.020Z",
   "counts": {
-    "total": 124,
-    "photos": 116,
-    "videos": 8
+    "total": 132,
+    "photos": 122,
+    "videos": 10
   },
   "categories": [
     {
@@ -40,7 +40,7 @@
       "id": "events",
       "label": "Events",
       "order": 500,
-      "count": 30
+      "count": 32
     },
     {
       "id": "meetings",
@@ -58,7 +58,7 @@
       "id": "Mix",
       "label": "Mix",
       "order": 500,
-      "count": 8
+      "count": 10
     },
     {
       "id": "real estate",
@@ -70,7 +70,7 @@
       "id": "sports",
       "label": "Sports",
       "order": 500,
-      "count": 4
+      "count": 8
     }
   ],
   "items": [
@@ -122,9 +122,9 @@
     {
       "id": "photos-events-01-974",
       "type": "photo",
-      "title": "قطر كالندر مع شاطئ 974",
+      "title": "قطر كالندر مع شاطئ 974",
       "category": "events",
-      "src": "media/photos/events/01 - قطر كالندر مع شاطئ 974.jpg",
+      "src": "media/photos/events/01 - قطر كالندر مع شاطئ 974.jpg",
       "thumb": "media/_thumbs/photos-events-01-974.webp",
       "width": 1499,
       "height": 1000,
@@ -458,9 +458,9 @@
     {
       "id": "photos-events-03-974-",
       "type": "photo",
-      "title": "شاطئ 974 مع كورنيش الدوحة",
+      "title": "شاطئ 974 مع كورنيش الدوحة",
       "category": "events",
-      "src": "media/photos/events/03 - شاطئ 974 مع كورنيش الدوحة.jpg",
+      "src": "media/photos/events/03 - شاطئ 974 مع كورنيش الدوحة.jpg",
       "thumb": "media/_thumbs/photos-events-03-974-.webp",
       "width": 1499,
       "height": 1000,
@@ -488,9 +488,9 @@
     {
       "id": "photos-ministers-03-",
       "type": "photo",
-      "title": "وزير البلدية مع الرئيس التنفيذي لشركة بلدنا",
+      "title": "وزير البلدية مع الرئيس التنفيذي لشركة بلدنا",
       "category": "Ministers",
-      "src": "media/photos/Ministers/03 - وزير البلدية مع الرئيس التنفيذي لشركة بلدنا.jpg",
+      "src": "media/photos/Ministers/03 - وزير البلدية مع الرئيس التنفيذي لشركة بلدنا.jpg",
       "thumb": "media/_thumbs/photos-ministers-03-.webp",
       "width": 1499,
       "height": 1000,
@@ -551,9 +551,9 @@
     {
       "id": "photos-sports-03-",
       "type": "photo",
-      "title": "رياضة مائية",
+      "title": "رياضة مائية",
       "category": "sports",
-      "src": "media/photos/sports/03 - رياضة مائية.JPG",
+      "src": "media/photos/sports/03 - رياضة مائية.JPG",
       "thumb": "media/_thumbs/photos-sports-03-.webp",
       "width": 1499,
       "height": 1000,
@@ -611,9 +611,9 @@
     {
       "id": "photos-events-04-",
       "type": "photo",
-      "title": "عرض الفقاعات المائية",
+      "title": "عرض الفقاعات المائية",
       "category": "events",
-      "src": "media/photos/events/04 - عرض الفقاعات المائية.jpg",
+      "src": "media/photos/events/04 - عرض الفقاعات المائية.jpg",
       "thumb": "media/_thumbs/photos-events-04-.webp",
       "width": 1499,
       "height": 1000,
@@ -829,7 +829,7 @@
       "type": "photo",
       "title": "رياح بالميناء القديم",
       "category": "portraits",
-      "src": "media/photos/portraits/05 - رياح بالميناء القديم.JPG",
+      "src": "media/photos/portraits/05 - رياح بالميناء القديم.jpg",
       "thumb": "media/_thumbs/photos-portraits-05-.webp",
       "width": 1334,
       "height": 2000,
@@ -849,6 +849,21 @@
       "width": 1125,
       "height": 1500,
       "ratio": 0.75,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 5
+    },
+    {
+      "id": "photos-sports-05-",
+      "type": "photo",
+      "title": "فريقي وزارة البلدية و وزارة التعليم",
+      "category": "sports",
+      "src": "media/photos/sports/05 - فريقي وزارة البلدية و وزارة التعليم.jpg",
+      "thumb": null,
+      "width": 1334,
+      "height": 1770,
+      "ratio": 0.7537,
       "featured": false,
       "wide": false,
       "year": null,
@@ -948,6 +963,21 @@
       "order": 6
     },
     {
+      "id": "photos-sports-06-football",
+      "type": "photo",
+      "title": "Football",
+      "category": "sports",
+      "src": "media/photos/sports/06 - Football.jpg",
+      "thumb": null,
+      "width": 1499,
+      "height": 1000,
+      "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 6
+    },
+    {
       "id": "photos-animals-07-",
       "type": "photo",
       "title": "السركاط",
@@ -1026,6 +1056,21 @@
       "order": 7
     },
     {
+      "id": "photos-sports-07-sport-shoot",
+      "type": "photo",
+      "title": "Sport Shoot",
+      "category": "sports",
+      "src": "media/photos/sports/07 - Sport shoot.jpg",
+      "thumb": null,
+      "width": 1499,
+      "height": 1000,
+      "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 7
+    },
+    {
       "id": "photos-animals-08-",
       "type": "photo",
       "title": "قطيع من البط",
@@ -1091,13 +1136,28 @@
     {
       "id": "photos-portraits-08-",
       "type": "photo",
-      "title": "ثنائي",
+      "title": "ثنائي",
       "category": "portraits",
-      "src": "media/photos/portraits/08 - ثنائي.jpg",
+      "src": "media/photos/portraits/08 - ثنائي.jpg",
       "thumb": "media/_thumbs/photos-portraits-08-.webp",
       "width": 1500,
       "height": 1000,
       "ratio": 1.5,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 8
+    },
+    {
+      "id": "photos-sports-08-goal-keeper",
+      "type": "photo",
+      "title": "Goal Keeper",
+      "category": "sports",
+      "src": "media/photos/sports/08 - Goal Keeper.jpg",
+      "thumb": null,
+      "width": 1499,
+      "height": 1000,
+      "ratio": 1.499,
       "featured": false,
       "wide": false,
       "year": null,
@@ -1134,11 +1194,29 @@
       "order": 9
     },
     {
+      "id": "videos-mix-09-",
+      "type": "video",
+      "provider": "file",
+      "videoId": null,
+      "src": "media/videos/Mix/09 - تحدي سباق الوكرة.mp4",
+      "title": "تحدي سباق الوكرة",
+      "category": "Mix",
+      "poster": "media/videos/Mix/09 - تحدي سباق الوكرة.png",
+      "thumb": null,
+      "width": 1010,
+      "height": 1754,
+      "ratio": 0.5758,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 9
+    },
+    {
       "id": "photos-portraits-09-",
       "type": "photo",
-      "title": "ثتائي مع الغروب",
+      "title": "ثتائي مع الغروب",
       "category": "portraits",
-      "src": "media/photos/portraits/09 - ثتائي مع الغروب.jpg",
+      "src": "media/photos/portraits/09 - ثتائي مع الغروب.jpg",
       "thumb": "media/_thumbs/photos-portraits-09-.webp",
       "width": 1500,
       "height": 1000,
@@ -1173,6 +1251,24 @@
       "width": 667,
       "height": 1000,
       "ratio": 0.667,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 10
+    },
+    {
+      "id": "videos-mix-10-",
+      "type": "video",
+      "provider": "file",
+      "videoId": null,
+      "src": "media/videos/Mix/10 - المعرض العقاري.mp4",
+      "title": "المعرض العقاري",
+      "category": "Mix",
+      "poster": "media/videos/Mix/10 - المعرض العقاري.png",
+      "thumb": null,
+      "width": 998,
+      "height": 1696,
+      "ratio": 0.5884,
       "featured": false,
       "wide": false,
       "year": null,
@@ -1226,9 +1322,9 @@
     {
       "id": "photos-portraits-11-",
       "type": "photo",
-      "title": "اللؤلؤة",
+      "title": "اللؤلؤة",
       "category": "portraits",
-      "src": "media/photos/portraits/11 - اللؤلؤة.jpg",
+      "src": "media/photos/portraits/11 - اللؤلؤة.jpg",
       "thumb": "media/_thumbs/photos-portraits-11-.webp",
       "width": 1500,
       "height": 1000,
@@ -1869,6 +1965,21 @@
       "order": 31
     },
     {
+      "id": "photos-events-31-",
+      "type": "photo",
+      "title": "توقيع مذكرة تفاهم",
+      "category": "events",
+      "src": "media/photos/events/31 - توقيع مذكرة تفاهم.jpg",
+      "thumb": null,
+      "width": 1499,
+      "height": 1000,
+      "ratio": 1.499,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 31
+    },
+    {
       "id": "photos-commercial-32-",
       "type": "photo",
       "title": "تفاصيل مقربة",
@@ -1878,6 +1989,21 @@
       "width": 734,
       "height": 1000,
       "ratio": 0.734,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 32
+    },
+    {
+      "id": "photos-events-32-",
+      "type": "photo",
+      "title": "مبادرة تنظيف شاطئ",
+      "category": "events",
+      "src": "media/photos/events/32 - مبادرة تنظيف شاطئ.jpg",
+      "thumb": null,
+      "width": 1334,
+      "height": 2000,
+      "ratio": 0.667,
       "featured": false,
       "wide": false,
       "year": null,
