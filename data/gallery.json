@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-07T10:40:42.716Z",
+  "generatedAt": "2026-11-08T21:44:44.068Z",
   "counts": {
-    "total": 132,
+    "total": 133,
     "photos": 122,
-    "videos": 10
+    "videos": 11
   },
   "categories": [
     {
@@ -58,7 +58,7 @@
       "id": "Mix",
       "label": "Mix",
       "order": 500,
-      "count": 10
+      "count": 11
     },
     {
       "id": "real estate",
@@ -122,9 +122,9 @@
     {
       "id": "photos-events-01-974",
       "type": "photo",
-      "title": "قطر كالندر مع شاطئ 974",
+      "title": "قطر كالندر مع شاطئ 974",
       "category": "events",
-      "src": "media/photos/events/01 - قطر كالندر مع شاطئ 974.jpg",
+      "src": "media/photos/events/01 - قطر كالندر مع شاطئ 974.jpg",
       "thumb": "media/_thumbs/photos-events-01-974.webp",
       "width": 1499,
       "height": 1000,
@@ -458,9 +458,9 @@
     {
       "id": "photos-events-03-974-",
       "type": "photo",
-      "title": "شاطئ 974 مع كورنيش الدوحة",
+      "title": "شاطئ 974 مع كورنيش الدوحة",
       "category": "events",
-      "src": "media/photos/events/03 - شاطئ 974 مع كورنيش الدوحة.jpg",
+      "src": "media/photos/events/03 - شاطئ 974 مع كورنيش الدوحة.jpg",
       "thumb": "media/_thumbs/photos-events-03-974-.webp",
       "width": 1499,
       "height": 1000,
@@ -488,9 +488,9 @@
     {
       "id": "photos-ministers-03-",
       "type": "photo",
-      "title": "وزير البلدية مع الرئيس التنفيذي لشركة بلدنا",
+      "title": "وزير البلدية مع الرئيس التنفيذي لشركة بلدنا",
       "category": "Ministers",
-      "src": "media/photos/Ministers/03 - وزير البلدية مع الرئيس التنفيذي لشركة بلدنا.jpg",
+      "src": "media/photos/Ministers/03 - وزير البلدية مع الرئيس التنفيذي لشركة بلدنا.jpg",
       "thumb": "media/_thumbs/photos-ministers-03-.webp",
       "width": 1499,
       "height": 1000,
@@ -551,9 +551,9 @@
     {
       "id": "photos-sports-03-",
       "type": "photo",
-      "title": "رياضة مائية",
+      "title": "رياضة مائية",
       "category": "sports",
-      "src": "media/photos/sports/03 - رياضة مائية.JPG",
+      "src": "media/photos/sports/03 - رياضة مائية.JPG",
       "thumb": "media/_thumbs/photos-sports-03-.webp",
       "width": 1499,
       "height": 1000,
@@ -611,9 +611,9 @@
     {
       "id": "photos-events-04-",
       "type": "photo",
-      "title": "عرض الفقاعات المائية",
+      "title": "عرض الفقاعات المائية",
       "category": "events",
-      "src": "media/photos/events/04 - عرض الفقاعات المائية.jpg",
+      "src": "media/photos/events/04 - عرض الفقاعات المائية.jpg",
       "thumb": "media/_thumbs/photos-events-04-.webp",
       "width": 1499,
       "height": 1000,
@@ -829,7 +829,7 @@
       "type": "photo",
       "title": "رياح بالميناء القديم",
       "category": "portraits",
-      "src": "media/photos/portraits/05 - رياح بالميناء القديم.JPG",
+      "src": "media/photos/portraits/05 - رياح بالميناء القديم.jpg",
       "thumb": "media/_thumbs/photos-portraits-05-.webp",
       "width": 1334,
       "height": 2000,
@@ -1136,9 +1136,9 @@
     {
       "id": "photos-portraits-08-",
       "type": "photo",
-      "title": "ثنائي",
+      "title": "ثنائي",
       "category": "portraits",
-      "src": "media/photos/portraits/08 - ثنائي.jpg",
+      "src": "media/photos/portraits/08 - ثنائي.jpg",
       "thumb": "media/_thumbs/photos-portraits-08-.webp",
       "width": 1500,
       "height": 1000,
@@ -1214,9 +1214,9 @@
     {
       "id": "photos-portraits-09-",
       "type": "photo",
-      "title": "ثتائي مع الغروب",
+      "title": "ثتائي مع الغروب",
       "category": "portraits",
-      "src": "media/photos/portraits/09 - ثتائي مع الغروب.jpg",
+      "src": "media/photos/portraits/09 - ثتائي مع الغروب.jpg",
       "thumb": "media/_thumbs/photos-portraits-09-.webp",
       "width": 1500,
       "height": 1000,
@@ -1320,11 +1320,29 @@
       "order": 11
     },
     {
+      "id": "videos-mix-11-",
+      "type": "video",
+      "provider": "file",
+      "videoId": null,
+      "src": "media/videos/Mix/11 - مقابلة وثائقية مع الدكتور.mp4",
+      "title": "مقابلة وثائقية مع الدكتور",
+      "category": "Mix",
+      "poster": "media/videos/Mix/11 - مقابلة وثائقية مع الدكتور.png",
+      "thumb": null,
+      "width": 3104,
+      "height": 1728,
+      "ratio": 1.7963,
+      "featured": false,
+      "wide": false,
+      "year": null,
+      "order": 11
+    },
+    {
       "id": "photos-portraits-11-",
       "type": "photo",
-      "title": "اللؤلؤة",
+      "title": "اللؤلؤة",
       "category": "portraits",
-      "src": "media/photos/portraits/11 - اللؤلؤة.jpg",
+      "src": "media/photos/portraits/11 - اللؤلؤة.jpg",
       "thumb": "media/_thumbs/photos-portraits-11-.webp",
       "width": 1500,
       "height": 1000,
@@ -1997,9 +2015,9 @@
     {
       "id": "photos-events-32-",
       "type": "photo",
-      "title": "مبادرة تنظيف شاطئ",
+      "title": "مبادرة تنظيف شاطئ",
       "category": "events",
-      "src": "media/photos/events/32 - مبادرة تنظيف شاطئ.jpg",
+      "src": "media/photos/events/32 - مبادرة تنظيف شاطئ.jpg",
       "thumb": "media/_thumbs/photos-events-32-.webp",
       "width": 1334,
       "height": 2000,
